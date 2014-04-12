@@ -51,9 +51,9 @@ void NetworkClient::sendDead()
 void NetworkClient::sendEndOfRound()
 {
     if (m_json) {
-        sendString("{ \"type\": \"round end\" }\n");
+        sendString("{ \"type\": \"end round\" }\n");
     } else {
-        sendString("ENDOFROUND\n");
+        sendString("ENDROUND\n");
     }
 }
 
