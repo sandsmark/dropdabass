@@ -1,6 +1,8 @@
 Drop da Bomb
 ============
 
+![screenshot](/screenshot.png)
+
 ## How to build
 
 On linux, in the folder where the source is:
